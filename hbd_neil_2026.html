@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Mi Amore ❤️</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background: linear-gradient(#101426, #1d2745);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: #fff7ed;
+            color: #4b3025;
+            max-width: 800px;
+            padding: 45px;
+            border-radius: 25px;
+            box-shadow: 0 20px 50px #0006;
+            line-height: 1.8;
+        }
+
+        h1,
+        h2 {
+            font-family: "Brush Script MT", cursive;
+            font-size: 48px;
+        }
+
+        button {
+            background: #c98585;
+            color: white;
+            border: 0;
+            padding: 15px 30px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .envelope {
+            width: 260px;
+            height: 170px;
+            background: #f3d1aa;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #633;
+            cursor: pointer;
+            font-size: 22px;
+            box-shadow: 0 20px 40px #0008;
+        }
+
+        .hidden {
+            display: none
+        }
+
+        .memory,
+        .love {
+            max-width: 700px;
+            background: #ffffff18;
+            padding: 25px;
+            margin: 15px;
+            border-radius: 20px;
+        }
+
+        .cake {
+            font-size: 100px;
+            cursor: pointer;
+        }
+
+        #typing {
+            min-height: 60px;
+        }
+
+        .star {
+            position: fixed;
+            width: 4px;
+            height: 4px;
+            background: white;
+            border-radius: 50%;
+            animation: blink 3s infinite alternate;
+        }
+
+        @keyframes blink {
+            from {
+                opacity: .2
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        .confetti {
+            position: fixed;
+            top: 0;
+            animation: fall 3s linear forwards;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(100vh) rotate(360deg)
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="star" style="left:10%;top:20%"></div>
+    <div class="star" style="left:30%;top:10%"></div>
+    <div class="star" style="left:70%;top:25%"></div>
+    <div class="star" style="left:85%;top:15%"></div>
+
+    <section id="opening">
+        <h1>For Neil ❤️</h1>
+        <p>39 years of being you.</p>
+        <div class="envelope" onclick="openCard()">Open your birthday letter 💌</div>
+    </section>
+
+    <div id="main" class="hidden">
+
+        <section>
+            <div class="card">
+                <h1 id="typing"></h1>
+                <p>
+                    Before today becomes another ordinary day, I wanted to give you something special.
+                    <br><br>
+                    Not wrapped in paper, but wrapped in our story, our memories, and my love for you.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Our Story ❤️</h2>
+
+            <div class="memory">
+                <h3>How it started</h3>
+                <p>
+                    A simple connection on OkCupid became a conversation, then something I never
+                    expected.
+                    <br><br>
+                    We found each other across the world.
+                </p>
+            </div>
+
+            <div class="memory">
+                <h3>The distance</h3>
+                <p>
+                    Loving someone from far away was not always easy, but every message, call, and moment together
+                    reminded me that you were worth waiting for.
+                </p>
+            </div>
+
+            <div class="memory">
+                <h3>Kuwait — March 2023 ✈️</h3>
+                <p>
+                    When you visited me in Kuwait, we finally got to turn our dreams and conversations into real
+                    memories.
+                    Those moments will always be special to me.
+                </p>
+            </div>
+
+            <div class="memory">
+                <h3>March 15, 2024 💍</h3>
+                <p>
+                    The day we became husband and wife and started building our life together.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Things I Love About You ❤️</h2>
+
+            <div class="love">
+                <p>❤️ You always try your best just to make me happy.</p>
+            </div>
+
+            <div class="love">
+                <p>❤️ You laugh when I am being silly and you let me be myself.</p>
+            </div>
+
+            <div class="love">
+                <p>❤️ I love my handyman. Watching you fix things and figure things out makes me admire you.</p>
+            </div>
+
+            <div class="love">
+                <p>❤️ You do things for me so I don't have to worry. Those little acts of love mean so much.</p>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="card">
+                <h2>Dear Neil ❤️</h2>
+                <p>
+                    Happy Birthday, my love.
+                    <br><br>
+                    Thank you for being the person who always tries, the person who makes me laugh, and the person who
+                    makes me feel cared for.
+                    <br><br>
+                    Our story started with a simple online connection, but it became something I treasure every day.
+                    <br><br>
+                    Thank you for choosing me, for building a home with me, and for being my partner through everything.
+                    <br><br>
+                    I hope your 39th year brings you happiness, good health, and all the things you deserve.
+                    <br><br>
+                    And my wish?
+                    <br><br>
+                    It already came true.
+                    <br>
+                    I get to spend my life with you.
+                    <br><br>
+                    Happy Birthday, my love.
+                    <br><br>
+                    ❤️ Marissa
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Make a wish 🎂</h2>
+            <div class="cake" onclick="celebrate()">🎂</div>
+            <p id="ending">Click the cake</p>
+        </section>
+
+    </div>
+
+    <script>
+        function openCard() {
+            document.getElementById("opening").style.display = "none";
+            document.getElementById("main").classList.remove("hidden");
+
+            let text = "Happy Birthday, my love ❤️";
+            let i = 0;
+            let box = document.getElementById("typing");
+            let timer = setInterval(() => {
+                box.innerHTML += text[i++];
+                if (i >= text.length) clearInterval(timer);
+            }, 100);
+        }
+
+        function celebrate() {
+            document.getElementById("ending").innerHTML =
+                "Make a wish, Neil ❤️<br><br>My wish already came true. I get to spend my life with you.";
+
+            for (let i = 0; i < 50; i++) {
+                let x = document.createElement("div");
+                x.className = "confetti";
+                x.innerHTML = "❤️";
+                x.style.left = Math.random() * 100 + "vw";
+                x.style.animationDuration = (2 + Math.random() * 3) + "s";
+                document.body.appendChild(x);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
